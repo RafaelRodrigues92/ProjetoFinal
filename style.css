@@ -26,17 +26,30 @@ a {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-style: bold;
-
-    
+    font-weight: bold;    
 }
+#secao-inicial img{
+    width: 200px;
+}
+
 .botao-inicial a{
-    margin: 5px;
+    padding: 0px 5px;
 }
 
 #agnd{
     background-color: aqua;
     color: white;
-    padding: 5px 20px;
+    padding: 5px 20px ;
     border-radius: 5px;
+}
+#conteudo-inicial{
+    background-color: black;
+    color: white;
+    font-family: 'Faustina', sans-serif;
+    flex-direction: column;
+}
+h1{
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
 }

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500;600;800&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.wrapper {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#secao-inicial{
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+
+    
+}
+.botao-inicial a{
+    margin: 5px;
+}
+
+#agnd{
+    background-color: aqua;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}

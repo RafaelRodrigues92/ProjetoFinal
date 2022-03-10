@@ -9,6 +9,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .wrapper {
     width: 90%;
     max-width: 1440px;
@@ -29,11 +30,7 @@ a {
     font-weight: bold;    
 }
 #secao-inicial img{
-    width: 200px;
-}
-
-.botao-inicial a{
-    padding: 0px 5px;
+    width: 150px;
 }
 
 #agnd{
@@ -46,10 +43,212 @@ a {
     background-color: black;
     color: white;
     font-family: 'Faustina', sans-serif;
-    flex-direction: column;
+    flex-direction: column;  
 }
+#conteudo-esq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 h1{
     font-size: 64px;
     font-weight: 800;
     text-align: center;
 }
+button{
+    background-color: aqua;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;   
+    border-radius: 5px;
+    padding: 5px 20px ;
+    margin: 15px auto;
+}
+button:hover{
+    opacity: 0.9;   
+}
+h2{
+    background-color: white;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+  
+}
+h3{
+    font-family: 'Faustina', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+h4{
+    font-family: 'Faustina', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+h5{
+    font-family: 'Faustina', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+
+
+}
+.glider-contain{
+    width: 720px;
+    margin: 0;
+}
+
+.img-dir{
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.secao-servicos{
+    background-color: black;
+}
+.cabelo-esq{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabelo-esq, p{
+    text-align: center;
+}
+
+.cabelo-esq>i:hover {
+    cursor: pointer;
+}
+.meio{
+    flex-direction: column;
+   
+}
+.meio, img{
+    margin: 15px 0;
+
+}
+.cabelo-dir{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabelo-dir>i:hover {
+    cursor: pointer;
+}
+.preco{
+    font-weight: 600;
+    font-size: 24px;
+    color: aqua;
+}
+
+.barba{
+    background-color: #1B1A1A;
+}
+.barba-esq{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.barba-esq, p{
+    text-align: center;
+}
+
+.barba-esq>i:hover {
+    cursor: pointer;
+}
+.barba-dir{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.barba-dir>i:hover {
+    cursor: pointer;
+}
+
+.combo-esq{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.combo-esq, p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.combo-esq>i:hover {
+    cursor: pointer;
+}
+.combo-dir{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.combo-dir>i:hover {
+    cursor: pointer;
+}
+
+.demais-servicos{
+    background-color: #1B1A1A;
+}
+.demais-servicos-esq{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.demais-servicos-esq, p{
+    text-align: center;
+}
+
+.demais-servicos-esq>i:hover {
+    cursor: pointer;
+}
+.demais-servicos-dir{
+    color: white;
+    flex-direction: column; 
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.demais-servicos-dir>i:hover {
+    cursor: pointer;
+}
+
+
+
+
+

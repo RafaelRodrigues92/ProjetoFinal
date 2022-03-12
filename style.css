@@ -28,9 +28,14 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: bold;    
+    height: 70px;
+    align-items: center;
 }
-#secao-inicial img{
-    width: 150px;
+.logo> img{
+    height: 60px;
+}
+.botao-inicial > a{
+    margin-left: 10px;
 }
 
 #agnd{
@@ -49,12 +54,18 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 
+}
+#glider{
+    width: 600px;
+}
 h1{
     font-size: 64px;
     font-weight: 800;
     text-align: center;
+}
+#conteudo-esq{
+    align-items: center;
 }
 button{
     background-color: aqua;
@@ -68,7 +79,8 @@ button{
     margin: 15px auto;
 }
 button:hover{
-    opacity: 0.9;   
+    opacity: 0.9;
+    cursor: pointer;   
 }
 h2{
     background-color: white;
@@ -77,6 +89,7 @@ h2{
     font-size: 48px;
     color: black;
     text-align: center;
+    padding: 5px;
   
 }
 h3{
@@ -135,7 +148,7 @@ h5{
     flex-direction: column;
    
 }
-.meio, img{
+.meio > img{
     margin: 15px 0;
 
 }
@@ -228,7 +241,7 @@ h5{
     font-weight: 400;
     font-size: 18px;
 }
-.demais-servicos-esq, p{
+.demais-servicos-esq> p{
     text-align: center;
 }
 
@@ -248,6 +261,36 @@ h5{
     cursor: pointer;
 }
 
+#quem-somos{
+    background-color: black;
+
+}
+.p{
+    color: #fff;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    padding: 20px 1vw;
+    flex-grow: 2;
+}
+.gallery-items{
+    width: 200px;
+    height: 150px;
+    border: 10px solid #fff;
+
+}
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
 
 
 

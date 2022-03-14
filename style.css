@@ -580,11 +580,23 @@ footer {
     
     
     }
+    @media screen and (max-width: 393px) {
+        #secao-inicial{
+            font-size: 6px;
+        }
+        button{
+            font-size: 8px; 
+            border-radius: 5px;
+            padding: 3px 8px ;
+        }
     @media screen and (max-width: 390px) {
         #secao-inicial{
             font-size: 6px;
-
-
+        }
+        button{
+            font-size: 8px; 
+            border-radius: 5px;
+            padding: 3px 8px ;
         }
 
 

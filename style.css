@@ -32,7 +32,9 @@ a {
     align-items: center;
 }
 .logo> img{
-    height: 60px;
+    height: 70px;
+    width: 23%;
+
 }
 .botao-inicial > a{
     margin-left: 10px;
@@ -49,23 +51,25 @@ a {
     color: white;
     font-family: 'Faustina', sans-serif;
     flex-direction: column;  
+    height: 510px;
 }
 #conteudo-esq{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
+    align-items: center;
+
 
 }
-#glider{
-    width: 600px;
+p{
+    text-align: center;
 }
+
 h1{
     font-size: 64px;
     font-weight: 800;
     text-align: center;
-}
-#conteudo-esq{
-    align-items: center;
 }
 button{
     background-color: aqua;
@@ -89,7 +93,9 @@ h2{
     font-size: 48px;
     color: black;
     text-align: center;
-    padding: 5px;
+    padding-bottom: 10px;
+    
+
   
 }
 h3{
@@ -117,8 +123,9 @@ h5{
 
 }
 .glider-contain{
-    width: 720px;
-    margin: 0;
+    width: 50%;
+    width: 700px;   
+
 }
 
 .img-dir{
@@ -126,10 +133,13 @@ h5{
     object-fit: cover;
     object-position: center;
 }
-.secao-servicos{
+#secao-servicos{
     background-color: black;
 }
-.cabelo-esq{
+.secao-servicos, .como-chegar{
+    background-color: black;
+}
+.cabelo-esq, .cabelo-dir, .barba-esq, .barba-dir, .combo-esq, .combo-dir, .demais-servicos-esq, .demais-servicos-dir{
     color: white;
     flex-direction: column; 
     text-align: center;
@@ -137,11 +147,9 @@ h5{
     font-weight: 400;
     font-size: 18px;
 }
-.cabelo-esq, p{
-    text-align: center;
-}
 
-.cabelo-esq>i:hover {
+
+.cabelo-esq>i:hover, .cabelo-dir>i:hover, .barba-esq>i:hover, .barba-dir>i:hover,.combo-esq>i:hover, .combo-dir>i:hover, .demais-servicos-esq>i:hover, .demais-servicos-dir>i:hover {
     cursor: pointer;
 }
 .meio{
@@ -150,148 +158,31 @@ h5{
 }
 .meio > img{
     margin: 15px 0;
-
-}
-.cabelo-dir{
-    color: white;
-    flex-direction: column; 
-    text-align: center;
-    font-family: 'Faustina', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.cabelo-dir>i:hover {
-    cursor: pointer;
 }
 .preco{
     font-weight: 600;
     font-size: 24px;
     color: aqua;
 }
-
-.barba{
+.barba-fundo, .demais-servicos-fundo{
     background-color: #1B1A1A;
-}
-.barba-esq{
-    color: white;
-    flex-direction: column; 
-    text-align: center;
-    font-family: 'Faustina', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-.barba-esq, p{
-    text-align: center;
-}
-
-.barba-esq>i:hover {
-    cursor: pointer;
-}
-.barba-dir{
-    color: white;
-    flex-direction: column; 
-    text-align: center;
-    font-family: 'Faustina', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.barba-dir>i:hover {
-    cursor: pointer;
-}
-
-.combo-esq{
-    color: white;
-    flex-direction: column; 
-    text-align: center;
-    font-family: 'Faustina', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-.combo-esq, p{
-    text-align: center;
-    margin: 10px 0;
-}
-
-.combo-esq>i:hover {
-    cursor: pointer;
-}
-.combo-dir{
-    color: white;
-    flex-direction: column; 
-    text-align: center;
-    font-family: 'Faustina', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.combo-dir>i:hover {
-    cursor: pointer;
-}
-
-.demais-servicos{
-    background-color: #1B1A1A;
-}
-.demais-servicos-esq{
-    color: white;
-    flex-direction: column; 
-    text-align: center;
-    font-family: 'Faustina', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-.demais-servicos-esq> p{
-    text-align: center;
-}
-
-.demais-servicos-esq>i:hover {
-    cursor: pointer;
-}
-.demais-servicos-dir{
-    color: white;
-    flex-direction: column; 
-    text-align: center;
-    font-family: 'Faustina', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.demais-servicos-dir>i:hover {
-    cursor: pointer;
+    width: 100%;
 }
 
 #quem-somos{
     background-color: black;
-
+}
+.quem-somos{
+    margin-top: 20px;
+    height: auto;
 }
 .p{
     color: #fff;
     font-family: 'Faustina', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    width: 50%;
+    margin-left: 25px;
 }
-.gallery-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2vw;
-    padding: 20px 1vw;
-    flex-grow: 2;
-}
-.gallery-items{
-    width: 200px;
-    height: 150px;
-    border: 10px solid #fff;
-
-}
-.gallery-items img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-
-}
-
-
 
 

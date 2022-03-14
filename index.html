@@ -8,6 +8,9 @@
     <title>Projeto Final</title>
     <link rel="stylesheet" href="./Vendor/Glider/glider.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css2/style.css">
+    <script src="js/modernizr.custom.70736.js"></script>
+		<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
     <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
 
 </head>
@@ -16,14 +19,13 @@
     <div id="secao-inicial">
         <header>
             <nav class="wrapper flex logo">
-                <img src="./img/1.jpg" alt="">
+                <img class="animate-inicial" src="./img/1.jpg" alt="">
                 <div class="botao-inicial">
-                    <a href="#secao-servicos">Serviços</a>
-                    <a href="#quem-somos">Quem Somos</a>
-                    <a href="#">Produtos</a>
-                    <a href="#">Avaliações</a>
-                    <a href="#">Como Chegar</a>
-                    <a id="agnd" href="#">Agendamento</a>
+                    <a class="animate-inicial" href="#secao-servicos">Serviços</a>
+                    <a class="animate-inicial" href="#quem-somos">Quem Somos</a>
+                    <a class="animate-inicial" href="#">Avaliações</a>
+                    <a class="animate-inicial" href="#">Como Chegar</a>
+                    <a class="animate-inicial" id="agnd" href="#">Agendamento</a>
                 </div>
             </nav>
         </header>
@@ -31,131 +33,140 @@
     <section id="conteudo-inicial">
         <div class="wrapper flex">
             <div id="conteudo-esq">
-                <h1>AGENDE AGORA <br> VIA LINK OU <br> WHATSAPP</h1>
-                <p>Sua primeira vez por aqui? Programe seu <br>atendimendo no link de agendamento ou nos <br> contacte
+                <h1 class="animate-inicial">AGENDE AGORA <br> VIA LINK OU <br> WHATSAPP</h1>
+                <p class="animate-inicial">Sua primeira vez por aqui? Programe seu <br>atendimendo no link de agendamento ou nos <br> contacte
                     via WhatsApp, caso tenha alguma <br>dúvida. Estamos sempre a disposição.</p>
-               <a href="https://api.whatsapp.com/send?phone=5511993849376&text=Ol%c3%a1%2c+Gostaria+de+agendar+um+atendimento!"><button> <i class="fa-brands fa-whatsapp"></i> Fale com a gente</button></a>
+               <a class="animate-inicial" href="https://api.whatsapp.com/send?phone=5511993849376&text=Ol%c3%a1%2c+Gostaria+de+agendar+um+atendimento!"><button> <i class="fa-brands fa-whatsapp"></i> Fale com a gente</button></a>
                    
             </div>
             <div id="conteudo-dir">
                 
                 <div class="glider-contain">
                     <div id="glider" class="glider">
-                        <img class="img-dir" src="./img/2.jpg">
-                        <img class="img-dir" src="./img/3.jpg">
-                        <img class="img-dir" src="./img/4.jpg">
-                        <img class="img-dir" src="./img/5.jpg">
-                        <img class="img-dir" src="./img/6.jpg">
-                        <img class="img-dir" src="./img/7.jpg">
-    
+                        <img class="img-dir" src="./img/inicial-img/1.jpg">
+                        <img class="img-dir" src="./img/inicial-img/2.jpg">
+                        <img class="img-dir" src="./img/inicial-img/3.jpg">
+                        <img class="img-dir" src="./img/inicial-img/4.jpg">
+                        <img class="img-dir" src="./img/inicial-img/5.jpg">
+                        <img class="img-dir" src="./img/inicial-img/6.jpg">
+                        <img class="img-dir" src="./img/inicial-img/7.jpg">
+                        <img class="img-dir" src="./img/inicial-img/8.jpg">
+                        <img class="img-dir" src="./img/inicial-img/9.jpg">
+                        <img class="img-dir" src="./img/inicial-img/10.jpg">  
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <main>
-        <section id="secao-servicos" class="secao-servicos">
+        <section id="secao-servicos">
             <h2>SERVIÇOS</h2>
-            <div class="cabelo wrapper">
-                <h3>CABELO</h3>
-                <div class="flex">
-
-                    <div class="cabelo-esq ">
-                        <h4>COMPLETO</h4>
-                        <p>LAVAGEM + TESOURA + <br>MÁQUINA + ACABAMENTO</p>
-                        <p class="preco">R$ 60</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
+            <div class="secao-servicos">
+                <div class="cabelo wrapper">
+                    <h3>CABELO</h3>
+                    <div class="flex">
+    
+                        <div class="cabelo-esq ">
+                            <h4>COMPLETO</h4>
+                            <p>LAVAGEM + TESOURA + <br>MÁQUINA + ACABAMENTO</p>
+                            <p class="preco">R$ 60</p>
+                            <i class="fa-solid fa-calendar"></i>
+                            <p>Agende seu horário</p>
+                        </div>
+                        <div class="flex meio">
+    
+                            <img src="./img/cabelo-278x300 1.png" alt="">
+                            <h5>O corte do seu jeito, como <br>você merece.</h5>
+                        </div>
+                        <div class="cabelo-dir">
+                            <h4>SIMPLES</h4>
+                            <p>01 PENTE DE MÁQUINA + <br>ACABAMENTO</p>
+                            <p class="preco">R$ 45</p>
+                            <i class="fa-solid fa-calendar"></i>
+                            <p>Agende seu horário</p>
+                        </div>
                     </div>
-                    <div class="flex meio">
-
-                        <img src="./img/cabelo-278x300 1.png" alt="">
-                        <h5>O corte do seu jeito, como <br>você merece.</h5>
-                    </div>
-                    <div class="cabelo-dir">
-                        <h4>SIMPLES</h4>
-                        <p>01 PENTE DE MÁQUINA + <br>ACABAMENTO</p>
-                        <p class="preco">R$ 45</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
-                    </div>
+    
                 </div>
-
-            </div>
-            <div class="barba wrapper">
-                <h3>BARBA</h3>
-                <div class="flex">
-
-                    <div class="barba-esq ">
-                        <h4>COMPLETA</h4>
-                        <p>TOALHA QUENTE + <br>NAVALHA + MÁQUINA + <br>PÓS BARBA</p>
-                        <p class="preco">R$ 50</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
-                    </div>
-                    <div class="flex meio">
-
-                        <img src="./img/barba-278x300 1.png" alt="">
-                        <h5>Você e sua barba bem <br>tratados.</h5>
-                    </div>
-                    <div class="barba-dir">
-                        <h4>SIMPLES</h4>
-                        <p>NAVALHA + MÁQUINA </p>
-                        <p class="preco">R$ 35</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
-                    </div>
+                <nav class="barba-fundo">
+                    <div class="barba wrapper">
+                        <h3>BARBA</h3>
+                        <div class="flex">
+        
+                            <div class="barba-esq ">
+                                <h4>COMPLETA</h4>
+                                <p>TOALHA QUENTE + <br>NAVALHA + MÁQUINA + <br>PÓS BARBA</p>
+                                <p class="preco">R$ 50</p>
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>Agende seu horário</p>
+                            </div>
+                            <div class="flex meio">
+        
+                                <img src="./img/barba-278x300 1.png" alt="">
+                                <h5>Você e sua barba bem <br>tratados.</h5>
+                            </div>
+                            <div class="barba-dir">
+                                <h4>SIMPLES</h4>
+                                <p>NAVALHA + MÁQUINA </p>
+                                <p class="preco">R$ 35</p>
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>Agende seu horário</p>
+                            </div>
+                        </div>
+                </nav>
+    
                 </div>
-
-            </div>
-            <div class="combo wrapper">
-                <h3>COMBO</h3>
-                <div class="flex">
-
-                    <div class="combo-esq ">
-                        <h4>COMPLETO</h4>
-                        <p>CABELO COMPLETO + <br>BARBA COMPLETA</p>
-                        <p class="preco">R$ 100</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
+                <div class="combo wrapper">
+                    <h3>COMBO</h3>
+                    <div class="flex">
+    
+                        <div class="combo-esq ">
+                            <h4>COMPLETO</h4>
+                            <p>CABELO COMPLETO + <br>BARBA COMPLETA</p>
+                            <p class="preco">R$ 100</p>
+                            <i class="fa-solid fa-calendar"></i>
+                            <p>Agende seu horário</p>
+                        </div>
+                        <div class="flex meio">
+    
+                            <img src="./img/cabelobarba-278x300 1.png" alt="">
+                            <h5>Tudo que você precisa, com o <br>cuidado que você merece.</h5>
+                        </div>
+                        <div class="barba-dir">
+                            <h4>SIMPLES</h4>
+                            <p>CABELO SIMPLES + <br>BARBA SIMPLES </p>
+                            <p class="preco">R$ 70</p>
+                            <i class="fa-solid fa-calendar"></i>
+                            <p>Agende seu horário</p>
+                        </div>
                     </div>
-                    <div class="flex meio">
-
-                        <img src="./img/cabelobarba-278x300 1.png" alt="">
-                        <h5>Tudo que você precisa, com o <br>cuidado que você merece.</h5>
-                    </div>
-                    <div class="barba-dir">
-                        <h4>SIMPLES</h4>
-                        <p>CABELO SIMPLES + <br>BARBA SIMPLES </p>
-                        <p class="preco">R$ 70</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
-                    </div>
+    
                 </div>
-
-            </div>
-            <div class="demais-servicos wrapper">
-                <h3>DEMAIS SERVIÇOS</h3>
-                <div class="flex">
-
-                    <div class="demais-servicos-esq ">
-                        <h4>CORTE INFANTIL</h4>
-                        <p>LAVAGEM + TESOURA + <br>MÁQUINA + ACABAMENTO</p>
-                        <p class="preco">R$ 45</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
-                    </div>
-                    <div class="flex meio">
-
-                        <img src="./img/cabelo-278x300 1.png" alt="">
-                        <h5>O melhor atendimento <br>pra você e para a família.</h5>
-                    </div>
-                    <div class="demais-servicos-dir">
-                        <h4>ACABAMENTO /<br> PEZINHO</h4>
-                        <p>MAQUINA + NAVALHA </p>
-                        <p class="preco">R$ 25</p>
-                        <i class="fa-solid fa-calendar"></i>
-                        <p>Agende seu horário</p>
+                <nav class="demais-servicos-fundo">
+                    <div class="demais-servicos wrapper">
+                        <h3>DEMAIS SERVIÇOS</h3>
+                        <div class="flex">
+        
+                            <div class="demais-servicos-esq ">
+                                <h4>CORTE INFANTIL</h4>
+                                <p>LAVAGEM + TESOURA + <br>MÁQUINA + ACABAMENTO</p>
+                                <p class="preco">R$ 45</p>
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>Agende seu horário</p>
+                            </div>
+                            <div class="flex meio">
+        
+                                <img src="./img/cabelo-278x300 1.png" alt="">
+                                <h5>O melhor atendimento <br>pra você e para a família.</h5>
+                            </div>
+                            <div class="demais-servicos-dir">
+                                <h4>ACABAMENTO /<br> PEZINHO</h4>
+                                <p>MAQUINA + NAVALHA </p>
+                                <p class="preco">R$ 25</p>
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>Agende seu horário</p>
+                            </div>
+                </nav>
                     </div>
                 </div>
             </div>
@@ -163,42 +174,236 @@
         <section id="quem-somos">
             <h2>QUEM SOMOS</h2>
             <div class="wrapper flex quem-somos">
-                <div class="gallery-container">
-                    <a href="./img/7.jpg" class="gallery-items">
-                        <img src="./img/7.jpg" alt="">
-                    </a>
-                    <a href="./img/6.jpg" class="gallery-items">
-                        <img src="./img/6.jpg" alt="">
-                    </a>
-                    <a href="./img/5.jpg" class="gallery-items">
-                        <img src="./img/5.jpg" alt="">
-                    </a>
-                    <a href="./img/4.jpg" class="gallery-items">
-                        <img src="./img/4.jpg" alt="">
-                    </a>
-                    <a href="./img/3.jpg" class="gallery-items">
-                        <img src="./img/3.jpg" alt="">
-                    </a>
-                    <a href="./img/2.jpg" class="gallery-items">
-                        <img src="./img/2.jpg" alt="">                        
-                    </a>
-                    <a href="./img/1.jpg" class="gallery-items">
-                        <img src="./img/4.jpg" alt="">
-                    </a>
-                </div>
-                <div class="p">
-                    <p>Somos uma Barbearia Clássica. Estamos no mercado desde 2016 oferecendo os serviços de corte de cabelo adulto e infantil e barbear clássico. Aqui você vai encontrar um ambiente descontraído e com tudo que você precisa para dar atualizar o seu visual. <br> Buscamos oferecer um serviço de qualidade e a nossa intenção é a de resgatar a cultura clássica das barbearias, criando um ambiente descontraído e elegante para você dar um trato no visual e fazer amizades. Como nos velhos tempos.</p>
-                </div>
+                <div class="container">
+
+                    <div class="gamma-container gamma-loading" id="gamma-container">
+    
+                        <ul class="gamma-gallery">
+    
+                            <li>
+                                <div data-alt="img03" data-description="<h3>RAFAELL</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/1.jpg" data-min-width="1300"></div> -->
+                                    <!-- <div data-src="./img/galeria/1.jpg" data-min-width="1000"></div> -->
+                                    <!-- <div data-src="./img/galeria/1.jpg" data-min-width="700"></div> -->
+                                    <!-- <div data-src="./img/galeria/1.jpg" data-min-width="300"></div> -->
+                                    <!-- <div data-src="./img/galeria/1.jpg" data-min-width="200"></div> -->
+                                    <!-- <div data-src="./img/galeria/1.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/1.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/1.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/2.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/2.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/2.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/2.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/2.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/2.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/2.jpg"></div> 
+                                    <noscript>
+                                        <img src="./img/galeria/2.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/3.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/3.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/3.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/3.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/3.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/3.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/3.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/3.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/4.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/4.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/4.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/4.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/4.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/4.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/4.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/5.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/5.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/5.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/5.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/5.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/5.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/5.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/5.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/6.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/6.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/6.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/6.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/6.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/6.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/6.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/6.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/7.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/7.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/7.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/7.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/7.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/7.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/7.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/7.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/8.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/8.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/8.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/8.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/8.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/8.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/8.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/8.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                    <!-- <div data-src="./img/galeria/9.jpg" data-min-width="1300"></div>
+                                    <div data-src="./img/galeria/9.jpg" data-min-width="1000"></div>
+                                    <div data-src="./img/galeria/9.jpg" data-min-width="700"></div>
+                                    <div data-src="./img/galeria/9.jpg" data-min-width="300"></div>
+                                    <div data-src="./img/galeria/9.jpg" data-min-width="200"></div>
+                                    <div data-src="./img/galeria/9.jpg" data-min-width="140"></div> -->
+                                    <div data-src="./img/galeria/9.jpg"></div>
+                                    <noscript>
+                                        <img src="./img/galeria/9.jpg" alt="img03"/>
+                                    </noscript>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="gamma-overlay"></div>
+
+					    <div id="loadmore" class="loadmore">Click Para ver mais Imagens</div>
+            </div> 
+        </div>
+            
+            <div class="p"><p>Somos uma Barbearia Clássica. Estamos no mercado desde 2016 oferecendo os serviços de corte de cabelo adulto e infantil e barbear clássico. Aqui você vai encontrar um ambiente descontraído e com tudo que você precisa para dar atualizar o seu visual. <br> Buscamos oferecer um serviço de qualidade e a nossa intenção é a de resgatar a cultura clássica das barbearias, criando um ambiente descontraído e elegante para você dar um trato no visual e fazer amizades. Como nos velhos tempos.</p></div>
+
+        </div>
+
+        </section>
+        <section>
+            <h2>AVALIAÇÕES</h2>
+            <div class="produtos">
 
             </div>
-
+        </section>
+        <section>
+            <h2>COMO CHEGAR</h2>
+            <div class="wrapper flex como-chegar">
+                <img src="./img/Capturar.PNG" alt="">
+                <a href="https://www.google.com/search?q=barbearia%20industrial&oq=BARBE&aqs=chrome.0.69i59l3j69i57j69i60j69i65j69i60l2.2164j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:4&tbm=lcl&sxsrf=APq-WBuWLl0UDCefHGO9m0KJ91xa8NHX8Q:1647216709424&rflfq=1&num=10&rldimm=4360612375928524035&lqi=ChRiYXJiZWFyaWEgaW5kdXN0cmlhbCIDiAEBSIvMqKeMq4CACFomEAAQARgAGAEiFGJhcmJlYXJpYSBpbmR1c3RyaWFsKgYIAhAAEAGSAQtiYXJiZXJfc2hvcA&ved=2ahUKEwjQ6tS2qMT2AhV8rZUCHXynCxoQvS56BAgEEDA&rlst=f#rlfi=hd:;si:4360612375928524035,l,ChRiYXJiZWFyaWEgaW5kdXN0cmlhbCIDiAEBSIvMqKeMq4CACFomEAAQARgAGAEiFGJhcmJlYXJpYSBpbmR1c3RyaWFsKgYIAhAAEAGSAQtiYXJiZXJfc2hvcA;mv:[[-23.499189899999998,-46.694145299999995],[-23.5282135,-46.699340799999995]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4"></a>
+            </div>
         </section>
 
     </main>
-
-
     <script src="./Vendor/Glider/glider.js"></script>
     <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="./js/jquery.masonry.min.js"></script>
+		<script src="./js/jquery.history.js"></script>
+		<script src="./js/js-url.min.js"></script>
+		<script src="js/jquerypp.custom.js"></script>
+		<script src="js/gamma.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script></body>
+        <script src="./js/script.js"></script>
+		<script type="text/javascript">
+            
+			
+			$(function() {
+
+				var GammaSettings = {
+						// order is important!
+						viewport : [ {
+							width : 1200,
+							columns : 5
+						}, {
+							width : 900,
+							columns : 4
+						}, {
+							width : 500,
+							columns : 3
+						}, { 
+							width : 320,
+							columns : 2
+						}, { 
+							width : 0,
+							columns : 2
+						} ]
+				};
+
+				Gamma.init( GammaSettings, fncallback );
+
+
+				// Example how to add more items (just a dummy):
+
+				var page = 0,
+					items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="./img/galeria/10.jpg" data-min-width="1300"></div><div data-src="./img/galeria/10.jpg" data-min-width="1000"></div><div data-src="./img/galeria/10.jpg" data-min-width="700"></div><div data-src="./img/galeria/10.jpg" data-min-width="300"></div><div data-src="./img/galeria/10.jpg" data-min-width="200"></div><div data-src="./img/galeria/10.jpg" data-min-width="140"></div><div data-src="./img/galeria/10.jpg"></div><noscript><img src="./img/galeria/10.jpg"" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="./img/galeria/11.jpg" data-min-width="1300"></div><div data-src="./img/galeria/11.jpg" data-min-width="1000"></div><div data-src="./img/galeria/11.jpg" data-min-width="700"></div><div data-src="./img/galeria/11.jpg" data-min-width="300"></div><div data-src="./img/galeria/11.jpg" data-min-width="200"></div><div data-src="./img/galeria/11.jpg" data-min-width="140"></div><div data-src="./img/galeria/11.jpg"></div><noscript><img src="./img/galeria/11.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="./img/galeria/12.jpg" data-min-width="1300"></div><div data-src="./img/galeria/12.jpg" data-min-width="1000"></div><div data-src="./img/galeria/12.jpg" data-min-width="700"></div><div data-src="./img/galeria/12.jpg" data-min-width="300"></div><div data-src="./img/galeria/12.jpg" data-min-width="200"></div><div data-src="./img/galeria/12.jpg" data-min-width="140"></div><div data-src="./img/galeria/12.jpg"></div><noscript><img src="./img/galeria/12.jpg" alt="img03"/></noscript></div></li>']
+				function fncallback() {
+
+					$( '#loadmore' ).show().on( 'click', function() {
+
+						++page;
+						var newitems = items[page-1]
+						if( page <= 1 ) {
+							
+							Gamma.add( $( newitems ) );
+
+						}
+						if( page === 1 ) {
+
+							$( this ).remove();
+
+						}
+
+					} );
+
+				}
+
+			});
+        </script>	
+    </script>
+
+
+    
 </body>
 
 </html>

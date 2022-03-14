@@ -391,6 +391,9 @@ footer {
 }
 }
 @media screen and (max-width: 600px) {
+    .wrapper{
+        width: 100%;}
+        
     #secao-inicial{
         font-size: 12px;
         height: 60px;
@@ -475,6 +478,9 @@ footer {
 }
 
 @media screen and (max-width: 414px) { 
+    .wrapper{
+        width: 100%;}
+
     #secao-inicial{
         font-size: 8px;
         height: 40px;
@@ -526,10 +532,7 @@ footer {
     }
     .meio> img{
         width: 80px
-    };
-    
-    
-    
+    }     
     .cabelo-esq, .cabelo-dir, .barba-esq, .barba-dir, .combo-esq, .combo-dir, .demais-servicos-esq, .demais-servicos-dir{
         font-size: 8px;
     }
@@ -581,6 +584,9 @@ footer {
     
     }
     @media screen and (max-width: 393px) {
+        .wrapper{
+            width: 100%;
+        }
         #secao-inicial{
             font-size: 6px;
         }
@@ -589,7 +595,11 @@ footer {
             border-radius: 5px;
             padding: 3px 8px ;
         }
+    }
     @media screen and (max-width: 390px) {
+        .wrapper{
+            width: 100%;}
+
         #secao-inicial{
             font-size: 6px;
         }
@@ -606,12 +616,14 @@ footer {
     
 
 @media screen and (max-width: 375px) { 
+    .wrapper{
+        width: 100%;}
+
     #secao-inicial{
     font-size: 6px;
     height: 40px;
 }
-.logo> img{
-height: 40px;
+.logo> img{height: 40px;
 width: 60px ;
 }
 

@@ -580,6 +580,17 @@ footer {
     
     
     }
+    @media screen and (max-width: 390px) {
+        #secao-inicial{
+            font-size: 6px;
+
+
+        }
+
+
+
+
+    }
     
 
 @media screen and (max-width: 375px) { 
@@ -634,7 +645,7 @@ h5{
     margin-bottom: 5px;    
 }
 .meio> img{
-    width: 80px
+    widt3h: 80px
 };
 
 
@@ -687,5 +698,4 @@ footer{
 }
 
 
-}
 }

@@ -246,11 +246,15 @@ button.gamma-btn-sspause:before {
 }
 
 .gamma-nav span.gamma-prev:before {
-	content: '\e75d';
+	content: '';
+	
+}
+i{
+	font-size: 20px;
 }
 
 .gamma-nav span.gamma-next:before {
-	content: '\e75e';
+	content: '';
 }
 
 .gamma-img-fly {

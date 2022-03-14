@@ -279,7 +279,7 @@ var Gamma = (function() {
 			if( Gamma.itemsCount > 1 ) {
 
 				Gamma.svplay = $( '<button class="gamma-btn-ssplay"></button>' ).insertAfter( Gamma.svclose );
-				Gamma.nav = $( '<nav class="gamma-nav"><span class="gamma-prev"></span><span class="gamma-next"></span></nav>' ).appendTo( Gamma.singleview );
+				Gamma.nav = $( '<nav class="gamma-nav"><span class="gamma-prev"><i class="fa-solid fa-circle-arrow-left"></i></span><span class="gamma-next"><i class="fa-solid fa-circle-arrow-right"></i></span></nav>' ).appendTo( Gamma.singleview );
 				Gamma.svnavnext = Gamma.nav.find( 'span.gamma-next' );
 				Gamma.svnavprev = Gamma.nav.find( 'span.gamma-prev' );
 

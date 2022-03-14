@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500;600;800&family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500;600;800&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -18,7 +18,7 @@ a {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -194,18 +194,16 @@ h5{
 }
 #como-chegar{
     background-color: rgb(20, 20, 20); 
-
-
-
-}
-iframe{
-   
+  
 }
 #avalicoes{
     background-color: rgb(20, 20, 20); 
 }
 .avl-img{
     object-position: center;
+}
+iframe{
+    margin: 10px auto;
 }
 footer {
     font-family: 'Faustina', sans-serif;
@@ -225,7 +223,7 @@ footer {
         font-size: 14px;
         height: 70px;
     }
-    .conteudo-inicial{
+    #conteudo-inicial{
         height: 400px;
     }
     .logo> img{
@@ -279,12 +277,26 @@ footer {
     .p{
    
         font-size: 18px;
-        width: 50%;
-        margin-left: 20px;
     }
-       
-    
+    .como-chegar{
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .p{
+   
+        font-size: 16px;
+        width: 50%;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .quem-somos{
+        flex-wrap: wrap-reverse;
+        justify-content: center;    
+    }
 }
+    
+    
 @media screen and (max-width: 860px) {
     .glider-contain{
         width: 450px; 
@@ -343,8 +355,12 @@ footer {
         font-size: 16px;
         width: 50%;
         margin-left: 15px;
+        margin-bottom: 10px;
     }
-       
+    .quem-somos{
+        flex-wrap: wrap-reverse;
+        justify-content: center;    
+    }
     
 
 }
@@ -354,24 +370,322 @@ footer {
     }
     #conteudo-inicial{
         justify-content: center;
+        height: 310px;
+    }
+    button{
+        font-size: 14px; 
+        border-radius: 5px;
+        padding: 5px 15px ;
+        margin-top: 8px;
+    }
+.quem-somos{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.p{
+    margin-bottom: 10px;
+}
+.como-chegar{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media screen and (max-width: 600px) {
+    #secao-inicial{
+        font-size: 12px;
+        height: 60px;
+    }
+    #conteudo-inicial{
+        height: 300px;
+    }
+    .logo> img{
+    height: 60px;
+    }
+    h1{
+        font-size: 28px;
+        margin-bottom: 15px;
+        
+    }
+    h2{
+
+        font-size: 24px;
+        padding-bottom: 8px;
+      
+    }
+    h3{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    h4{
+        font-size: 16px;
+       margin-bottom: 10px;
+    
+    }
+    h5{
+        font-size: 14px;
+        margin-bottom: 10px;    
+    }
+    button{
+        font-size: 12px; 
+        border-radius: 5px;
+        padding: 5px 10px ;
+        margin-top: 15px;
+    
+    }
+    .glider-contain{
+        height: 300px;
+    }
+    .cabelo-esq, .cabelo-dir, .barba-esq, .barba-dir, .combo-esq, .combo-dir, .demais-servicos-esq, .demais-servicos-dir{
+        font-size: 14px;
+    }
+    .cabelo-esq> p, .cabelo-dir> p, .barba-esq> p, .barba-dir> p, .combo-esq> p, .combo-dir> p, .demais-servicos-esq> p, .demais-servicos-dir> p{
+        margin-bottom: 10px;
+    }
+    .preco{
+        font-size: 16px;
+
+    }
+    .como-chegar{
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .p{
+   
+        font-size: 16px;
+        width: 50%;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .quem-somos{
+        flex-wrap: wrap-reverse;
+        height: 1200px;    
+        justify-content: center;
+    }
+    .gamma-container{
+        margin-bottom: 120px;
+    }
+    #conteudo-esq> p{
+        display: none;
+    }
+    .avaliacoes> img{
+       max-width: 550px;
+        
+    }
+}
+
+@media screen and (max-width: 414px) { 
+    #secao-inicial{
+        font-size: 8px;
+        height: 40px;
+    }
+    .logo> img{
+    height: 40px;
+    width: 50px ;
+    }    
+    #conteudo-inicial{
+        height: 180px;
+    }
+    .glider-contain{
+        width: 255px;
+    }
+    .conteudo-esq{
+        height: 180px;
+    }
+    h1{
+        font-size: 18px;
+        margin-bottom: 5px;
+        
+    }
+    button{
+        font-size: 8px; 
+        border-radius: 5px;
+        padding: 3px 8px ;
+        margin-top: 10px;
+    }
+    button> i{
+        font-size: 10px;
+    }
+    h2{
+    
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    h3{
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    h4{
+        font-size: 12px;
+       margin-bottom: 5px;
+    
+    }
+    h5{
+        font-size: 10px;
+        margin-bottom: 5px;    
+    }
+    .meio> img{
+        width: 80px
+    };
+    
+    
+    
+    .cabelo-esq, .cabelo-dir, .barba-esq, .barba-dir, .combo-esq, .combo-dir, .demais-servicos-esq, .demais-servicos-dir{
+        font-size: 8px;
+    }
+    .cabelo-esq> p, .cabelo-dir> p, .barba-esq> p, .barba-dir> p, .combo-esq> p, .combo-dir> p, .demais-servicos-esq> p, .demais-servicos-dir> p{
+        margin-bottom: 2px;
+        font-size: 8px;
+    
+    }
+    .cabelo-esq> i, .cabelo-dir> i, .barba-esq> i, .barba-dir> i, .combo-esq> i, .combo-dir> i, .demais-servicos-esq> i, .demais-servicos-dir> i{
+        font-size: 8px;
+    }
+    .preco{
+        font-size: 12px;
+    
+    }
+    .como-chegar{
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .p{
+    
+        font-size: 10px;
+    }
+    .quem-somos{
+        flex-wrap: wrap-reverse;
+        height: 1000px;    
+        justify-content: center;
+    }
+    .gamma-container{
+        margin-bottom: 120px;
+    }
+    
+    .avaliacoes> img{
+       max-width: 330px;
+        
+    }
+    footer{
+        font-size: 8px;
+        height: 15px;
+        object-position: center;
+    
+    }
+    
+    
     }
     
 
-}
-@media screen and (max-width: 600px) {
-    .glider-contain{
-        width: 300px; }
+@media screen and (max-width: 375px) { 
     #secao-inicial{
-        font-size: 10px;
-        height: 60px;
-    }
-    h1{
-        font-size: 36px;
-    }
-   
+    font-size: 6px;
+    height: 40px;
+}
+.logo> img{
+height: 40px;
+width: 60px ;
+}
+
+#conteudo-inicial{
+    height: 180px;
+}
+.glider-contain{
+    width: 255px;
+}
+.conteudo-esq{
+    height: 180px;
+}
+h1{
+    font-size: 18px;
+    margin-bottom: 5px;
     
 }
-@media screen and (max-width: 600px){
-    .glider-contain{
-    display: none;}
+button{
+    font-size: 8px; 
+    border-radius: 5px;
+    padding: 3px 8px ;
+    margin-top: 10px;
+}
+button> i{
+    font-size: 10px;
+}
+h2{
+
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+h3{
+    font-size: 14px;
+    margin: 5px 0;
+}
+h4{
+    font-size: 12px;
+   margin-bottom: 5px;
+
+}
+h5{
+    font-size: 10px;
+    margin-bottom: 5px;    
+}
+.meio> img{
+    width: 80px
+};
+
+
+
+.cabelo-esq, .cabelo-dir, .barba-esq, .barba-dir, .combo-esq, .combo-dir, .demais-servicos-esq, .demais-servicos-dir{
+    font-size: 8px;
+}
+.cabelo-esq> p, .cabelo-dir> p, .barba-esq> p, .barba-dir> p, .combo-esq> p, .combo-dir> p, .demais-servicos-esq> p, .demais-servicos-dir> p{
+    margin-bottom: 2px;
+    font-size: 8px;
+
+}
+.cabelo-esq> i, .cabelo-dir> i, .barba-esq> i, .barba-dir> i, .combo-esq> i, .combo-dir> i, .demais-servicos-esq> i, .demais-servicos-dir> i{
+    font-size: 8px;
+}
+.preco{
+    font-size: 12px;
+
+}
+.como-chegar{
+flex-wrap: wrap;
+justify-content: center;
+}
+iframe{
+    width: 330px;
+}
+
+.p{
+
+    font-size: 10px;
+}
+.quem-somos{
+    flex-wrap: wrap-reverse;
+    height: 1000px;    
+    justify-content: center;
+}
+.gamma-container{
+    margin-bottom: 120px;
+}
+
+.avaliacoes> img{
+   max-width: 330px;
+    
+}
+footer{
+    font-size: 8px;
+    height: 15px;
+    object-position: center;
+
+}
+
+
+}
 }

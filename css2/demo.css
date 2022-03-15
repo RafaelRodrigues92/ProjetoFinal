@@ -39,7 +39,8 @@ a {
 }
 
 .container {
-	width: 50%;
+	width: 90%;
+	max-width: 850px;
 	position: relative;
 }
 

@@ -589,7 +589,7 @@ footer {
     }
     .quem-somos{
         flex-wrap: wrap-reverse;
-        height: 1000px;    
+        height: 1200px;    
         justify-content: center;
     }
     .gamma-container{
@@ -620,8 +620,18 @@ footer {
             font-size: 8px; 
             border-radius: 5px;
             padding: 3px 8px ;
+            
         }
+        .quem-somos{
+            flex-wrap: wrap-reverse;
+            height: 1150px;    
+            justify-content: center;
     }
+    #conteudo-esq{
+        height: 180px;
+        margin-bottom: 100px;}
+
+}
     @media screen and (max-width: 390px) {
         .wrapper{
             width: 100%;}
@@ -634,12 +644,16 @@ footer {
             border-radius: 5px;
             padding: 3px 8px ;
         }
-
-
-
-
+        .quem-somos{
+            flex-wrap: wrap-reverse;
+            height: 1100px;    
+            justify-content: center;
     }
-    
+    #conteudo-esq{
+        height: 180px;
+        margin-bottom: 100px;
+}
+    }
 
 @media screen and (max-width: 375px) { 
     .wrapper{
@@ -699,8 +713,8 @@ h5{
     margin-bottom: 5px;    
 }
 .meio> img{
-    width: 80px;
-};
+    width: 80px;}
+
 
 
 
